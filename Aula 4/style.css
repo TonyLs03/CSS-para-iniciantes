@@ -1,0 +1,43 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background: skyblue;
+  padding: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Alkatra, sans-serif;
+}
+
+/* Alkatra> peguei o link da fonte no google fonts, adicionamos no html dentro da tag HEAD e adicionei no font-family juntamente com outra fonte, assim linkamos a fonte ao projeto */
+
+/* podemos usar display flex em quase todas as tags. quando usamos display flex todas as tags filhos serão itens flex */
+
+/* justify-content: space-between; é o espaço entre os itens */
+
+/* align-items: center; centralizando itens */
+
+.logo{
+  width: 60px;
+}
+
+.menu li{
+  display: inline;
+  margin: 0 8px;
+}
+
+.menu ul{
+  padding: 0;
+}
+
+@media(max-width: 376px){
+  .header{
+    color:white;
+    background-color: blue;
+    flex-direction: column;
+  }
+}

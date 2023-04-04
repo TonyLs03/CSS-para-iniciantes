@@ -1,0 +1,35 @@
+div{
+  border: 3px solid blue;
+  margin: 20px 10px;
+  padding: 10px 20px;
+}
+
+/* margin: fica fora da borda do conteúdo, limpa uma área FORA DA BORDA do conteúdo preenchendo essa area de forma transparente. se aplicar margin: 20px surtirá efeito em todos os lados, porém existem outras maneiras como > margin: 20px 10px; onde 20 corresponde as medidas de cima e baixo e 10 os lados esquerdos e direito. (outro exemplo: margin 5px 10px 3px 10px [cima, direita, baixo, esquerda respectivamente]) */ 
+
+/* padding: espaçamento DENTRO DA BORDA (no conteúdo). as regras aplicadas em margin também funcionam no padding da mesma forma. */
+
+/* Obs.: esses valores podem ser aplicados tanto com 1 número, 2 números e 4 números, 3 não é possível */
+
+/* content: conteúdo, no nosso html o content é o nosso texto (Esta é a minha div), pode ser uma imagem, pode ser um texto ou uma tag. */
+
+h1, p{
+  border: 1px solid green;
+}
+
+/* div, títulos (h1 até h6), parágrafos dentre outras tags vem por padrão com DISPLAY BLOCK (no qual se inicia em outra linha e ocupa todo o espaço da linha até o fim) e respeitam o mesmo comportamento. */
+
+span{
+  border: 1px solid purple
+}
+
+/* se quisermos usar outro item que não se comporte da forma como os defaut display block, podemos usar o span, ele começa na mesma linha e só ocupa o espaço que precisa. */
+
+/* Obs.: podemos manipular alterando no css o tipo de display, exemplo: 
+
+div{
+  border: 3px solid blue;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  display: inline;
+}
+*/

@@ -1,0 +1,38 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+/* reset no html: zerar o margin e pading */
+
+.header{
+  background: skyblue;
+  position: relative;
+}
+
+.logo{
+  width: 100px;
+  margin: 50px;
+}
+
+.menu ul{
+  list-style: none;
+}
+
+.menu li{
+  display: inline;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.menu{
+  /* border: 2px solid blue; */
+
+  position: absolute;
+  right: 50px;
+  bottom: 55px
+}
+
+/* position > existem 3 principais. Os mais usados > absolute, fixed, relative. 
+fixed> fixo na tela 
+relative> relativo a ele mesmo (lembre-se disso)
+absolute> se posiciona a partir do ponto superior esquerdo de alguém */
